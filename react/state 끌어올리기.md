@@ -19,6 +19,7 @@ function Child({state, setState}) {
 
     return (
         <div>
+            <button onClick={onClick} />
             {state}
         </div>
     );
